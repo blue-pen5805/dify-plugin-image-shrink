@@ -1,3 +1,3 @@
-## Dify Plugin - image-shrink
+## image-shrink
 
 Shrink input image to a smaller size.
