@@ -8,14 +8,14 @@ description:
     en_US: shrink image size
   llm: shrink image size
 parameters:
-  - name: image
-    type: file
+  - name: images
+    type: files
     required: true
     label:
-      en_US: single image file
+      en_US: image files
     human_description:
-      en_US: shrink image size
-    llm_description: shrink image size
+      en_US: select images to shrink
+    llm_description: select images to shrink
     form: llm
   - name: dimension
     type: number
